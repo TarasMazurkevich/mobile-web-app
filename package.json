@@ -1,0 +1,43 @@
+{
+  "name": "trexoz-client-app",
+  "version": "1.0.0",
+  "description": "My legendary Nuxt.js project",
+  "author": "tarasMazur",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "precommit": "npm run lint",
+  "resolutions": {
+    "eslint-loader": "2.1.2"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "babel-eslint": "^10.0.1",
+    "cors": "^2.8.5",
+    "luxon": "^1.22.0",
+    "node-sass": "^4.13.1",
+    "nuxt": "^2.0.0",
+    "nuxt-start": "^2.11.0",
+    "sass-loader": "^8.0.2",
+    "vue-datetime": "^1.0.0-beta.11",
+    "vue-loader": "^15.8.3",
+    "vue-place-autocomplete": "^0.5.3",
+    "weekstart": "^1.0.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^1.0.1",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "vue-loader": "^15.8.3"
+  }
+}
